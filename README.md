@@ -17,26 +17,22 @@ This project analyzes real-world ChatGPT user reviews using Microsoft Excel. It 
   - **Positive**: Ratings ≥ 5
   - **Neutral**: Ratings ≥ 3 and < 5
   - **Negative**: Ratings < 3
-
+- **Common Words**: Words like _“good”_, _“helpful”_, and _“app”_ appeared frequently in user reviews.
 - **Monthly Trends**: Ratings remained consistently high, with minor dips during certain months.
---
-
-  📊 Once You Re-upload, I’ll Instantly Provide:
-  ✅ Total Reviews
-  ⭐ Average Rating
-  💚 % of Positive Sentiment
-
+- **KPI Metrics**:
+  - Total Reviews: `439`
+  - Average Rating: `4.68
+  - % of Positive Sentiment: `86.1%``
 ---
 
 ## 📊 Excel Dashboard Features
 
-- Interactive **Pivot Table** grouped by review dates.
-- **Slicers** for dynamic filtering (e.g., by month or sentiment).
-- **Line Charts** to show rating trends over time.
-- **Pie Charts** for sentiment and rating distribution.
-- **Word Frequency Table** using COUNTIF/PivotTable.
+* Interactive **Pivot Table** grouped by review dates.
+* **Bar Chart** for dynamic filtering (e.g., by month or sentiment).
+* **Line Charts** to show rating trends over time.
+* **Pie Charts** for sentiment and rating distribution.
 
----
+------
 
 ## 📄 How to Use
 
