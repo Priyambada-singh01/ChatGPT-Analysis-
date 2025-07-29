@@ -1,57 +1,58 @@
-# ChatGPT Reviews Analysis 📊
+# 📊 ChatGPT Reviews Sentiment Analysis
 
-This project analyzes real-world ChatGPT user reviews using Microsoft Excel. It aims to uncover insights about user satisfaction, sentiment trends, and frequently used feedback keywords through various Excel tools such as pivot tables, charts, and sentiment formulas.
+## 🧾 Project Overview
 
-## 📁 Project Overview
-
-- **Dataset**: Collected reviews of ChatGPT users with ratings, dates, and review texts.
-- **Tools Used**: Microsoft Excel (Pivot Tables, Charts, Slicers, Formulas).
-- **Goal**: To perform sentiment analysis, calculate KPIs, and visualize user feedback.
+This project focuses on analyzing customer reviews of **ChatGPT** to uncover insights into user **sentiment** and **satisfaction trends**.
 
 ---
 
-## 📈 Key Insights
+## 🎯 Objectives
 
-- **Rating Distribution**: Majority of the users gave a **5-star rating**, indicating high satisfaction.
-- **Sentiment Analysis**:
-  - **Positive**: Ratings ≥ 5
-  - **Neutral**: Ratings ≥ 3 and < 5
-  - **Negative**: Ratings < 3
-- **Common Words**: Words like _“good”_, _“helpful”_, and _“app”_ appeared frequently in user reviews.
-- **Monthly Trends**: Ratings remained consistently high, with minor dips during certain months.
-- **KPI Metrics**:
-  - Total Reviews: `439`
-  - Average Rating: `4.68
-  - % of Positive Sentiment: `86.1%``
----
-
-## 📊 Excel Dashboard Features
-
-* Interactive **Pivot Table** grouped by review dates.
-* **Bar Chart** for dynamic filtering (e.g., by month or sentiment).
-* **Line Charts** to show rating trends over time.
-* **Pie Charts** for sentiment and rating distribution.
-
-------
-
-## 📄 How to Use
-
-1. Open the Excel file: `chatgpt_reviews final.xlsx`
-2. Navigate to different sheets:
-   - `Dashboard`: View all visuals and KPIs.
-   - `Data`: Raw review data.
-   - `Sentiment`: Formula-based sentiment tagging.
-3. Use slicers and filters to interact with the dashboard.
+* ✅ **Perform Sentiment Analysis** (Positive, Negative, Neutral classification)
+* ✅ **Measure Subjectivity** to assess opinion-based vs. fact-based feedback
+* ✅ **Extract Key Features** and frequently mentioned terms from the reviews
+* ✅ **Visualize Insights** using plots and word clouds
 
 ---
 
-## 📌 Conclusion
+## 🛠️ Project Workflow
 
-This project demonstrates how Excel can be used for **text analysis**, **sentiment classification**, and **interactive dashboards**—all without any code! It’s ideal for aspiring data analysts or anyone wanting to build a project using only Excel.
+1. **Problem Framing** – Understand the goal and scope of review analysis
+2. **Data Preparation** – Load, clean, and preprocess the review data
+3. **Exploratory Data Analysis (EDA)** – Discover patterns, ratings distribution, and word frequencies
+4. **Sentiment & Text Analysis** – Use NLP techniques to classify sentiments and measure subjectivity
+5. **Insights & Recommendations** – Summarize findings and suggest improvements based on user feedback
 
 ---
 
-## 🔗 Connect With Me
+## 🧰 Tech Stack
 
-If you liked this project, feel free to ⭐ the repo and connect with me on [LinkedIn](#)!
+* **Python**
+* **Pandas** – Data manipulation
+* **Matplotlib & Seaborn** – Data visualization
+* **TextBlob** – Sentiment and subjectivity scoring
+* **Scikit-learn** – Text feature extraction
+* **WordCloud** – Keyword visualization
+
+---
+
+## 📁 Project Structure
+
+```
+├── data/                   # Raw and cleaned CSV data
+├── notebooks/              # Jupyter Notebooks for EDA and modeling
+├── outputs/                # Visualizations and final charts
+├── README.md               # Project documentation (this file)
+└── main.py / analysis.py   # Core analysis scripts
+```
+
+---
+
+## 📌 Notes
+
+* Sentiment scores range from **-1 to +1**
+* Subjectivity scores range from **0 (objective)** to **1 (subjective)**
+* Frequently used words are visualized via **WordClouds**
+* Text features like TF-IDF or CountVectorizer can be used for further modeling
+
 
